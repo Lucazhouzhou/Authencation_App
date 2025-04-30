@@ -1,52 +1,71 @@
 # Project Title
 
-Simple overview of use/purpose.
+Command Line Login application
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+A simple command line login application with a menu and functionality as follows:
+
+* Login – Not logged-in users can log in with existing username and password stored in source.txt. A correct login combination updates the menu to include 'Change password' and 'Logout' and exclude 'Login', 'Register' and ‘Quit’
+* Register – Not logged-in users can create a new account with username and password which is stored in source.txt with the password salted and hashed, the new username must be unique, and then user can log in using the new username and password
+* Quit – Not logged-in users can end the program
+Change password – A logged-in user can change their password which is updated in source.txt with a minimum password length of 4 characters
+* Logout - A logged-in user can logout ending the program
+
+## Documentation
+
+### IPO Table
+
+<img src="IPO.png" />
+
+### Structure chart
+
+<img src="Structure_Chart.png" />
+
+### Flow chart
+
+<img src="Flow_Chart.png" />
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* bcrypt
+
+*Dependencies are installed by requirements.txt*
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Deploy to a GitHub Codespace
+* Wait for dependancies and extensions to install
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
+* At the bash command prompt:
+
+``` bash
+    $ cd my_work
+    $ python main.py
 ```
 
 ## Help
 
 Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+ex. [YOUR NAME](YOUR GITHUB PROFILE)
+
 
 ## Version History
 
 * 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]() or see [branch]()
+    * First release
 * 0.1
-    * Initial Release
+    * Template formed
 
 ## License
 
@@ -57,3 +76,5 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 Inspiration, code snippets, etc.
 * [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [TempeHS Python template](https://github.com/TempeHS/TempeHS_Python_DevContainer)
+* [CS50 Python Notes](https://github.com/TempeHS/PythonFundamentals)
+* [Bcrypt documentation](https://pypi.org/project/bcrypt/)
