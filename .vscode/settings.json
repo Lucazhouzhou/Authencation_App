@@ -1,0 +1,24 @@
+{
+	"extensions.allowed": {
+          "ms-python.python": true,
+          "McCarter.start-git-bash": true,
+          "oderwat.indent-rainbow": true,
+          "GitHub.codespaces": true,
+          "ms-python.debugpy": true,
+          "mechatroner.rainbow-csv": true,
+          "mathematic.vscode-pdf": true,
+          "*": false
+        },
+	"files.autoSave": "onFocusChange",
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": false,
+	"editor.fontSize": 18,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"window.restoreWindows": "preserve",
+	"workbench.editorAssociations": {
+		"*.md": "vscode.markdown.preview.editor"
+	},
+	"editor.defaultFormatter":  null,
+	"editor.formatOnType": false,
+        "python.languageServer": "None"
+}
